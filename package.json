@@ -1,0 +1,28 @@
+{
+  "name": "@redgoose/create-service-worker",
+  "version": "1.0.0",
+  "author": "redgoose <scripter@me.com>",
+  "repository": "https://github.com/redgoose-dev/create-service-worker.git",
+  "main": "bundle/index.js",
+  "module": "bundle/index.js",
+  "types": "bundle/index.d.ts",
+  "exports": {
+    ".": "./bundle/index.js",
+    "./vite": "./bundle/vite.plugin.js",
+    "./src/": "./src/"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "demo": "node src/demo/index.js",
+    "build": "node scripts/build.js",
+    "publish": ""
+  },
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.17.18"
+  }
+}

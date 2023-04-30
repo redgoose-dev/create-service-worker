@@ -1,0 +1,13 @@
+# directories
+.idea/
+node_modules/
+.AppleDouble/
+dist/
+src/
+scripts/
+
+# files
+.DS_Store
+package-lock.json
+yarn.lock
+bun.lockb
